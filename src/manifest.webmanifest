@@ -1,9 +1,10 @@
 {
-  "name": "epa-roster-enlist",
-  "short_name": "epa-roster-enlist",
+  "name": "Enlist - EPA Roster",
+  "short_name": "Enlist",
   "theme_color": "#004f3b",
   "background_color": "#fafafa",
   "display": "standalone",
+  "orientation": "portrait",
   "scope": "/",
   "start_url": "/",
   "icons": [
