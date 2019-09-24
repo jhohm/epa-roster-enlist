@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'epa-roster-enlist'`, () => {
+  it(`should have as title 'Enlist - EPA Roster'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('epa-roster-enlist');
+    expect(app.title).toEqual('Enlist - EPA Roster');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('epa-roster-enlist app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('Enlist - EPA Roster app is running!');
   });
 });
